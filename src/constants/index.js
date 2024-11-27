@@ -48,6 +48,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Medellín, Colombia ",
-  phoneNo: "+57 3022260938 ",
-  email: "juanjoarenas1218@gmail.com",
+  phoneNo: "+57 3052347042 ",
+  email: "a.canorave@gmail.com",
 };

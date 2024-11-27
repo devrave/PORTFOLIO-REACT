@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import profilePic from "../assets/kevinRushProfile.jpg"
+import profilePic from "../assets/AndresCanoProfile.jpg"
 import { delay, motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -40,7 +40,7 @@ const Hero = () => {
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, delay: 1.2}}
-                src={profilePic} alt="Juan Arenas" className='w-96 rounded-[500px] mt-20 lg:ml-44 border-2 gap-12  border-purple-500 '/>
+                src={profilePic} alt="Andrés Cano" className='w-96 rounded-[500px] mt-20 lg:ml-44 border-2 gap-12  border-purple-500 '/>
             </div>
         </div>
       </div>

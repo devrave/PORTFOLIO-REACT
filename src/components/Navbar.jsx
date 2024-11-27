@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/jarenas1Logo.png";
+import logo from "../assets/devraveLogo2.png";
 import cv from "../assets/JuanJoseArenasGaviriaCV.pdf";
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
@@ -35,7 +35,7 @@ const Navbar = () => {
           }`}
         >
           <div className="flex flex-shrink-0 items-center ml-4 py-2">
-            <img src={logo} alt="jarenas1 logo" className="w-40 sm:w-60" />
+            <img src={logo} alt="jarenas1 logo" className="w-32 sm:w-40 py-8" />
           </div>
           
           <div className="justify-around xl:w-2/5 lg:w-4/6 hidden lg:flex">
