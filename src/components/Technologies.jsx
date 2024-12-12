@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
-import { DiJava} from 'react-icons/di'
+import { DiAndroid, DiJava, DiJira} from 'react-icons/di'
 import { DiJsBadge } from 'react-icons/di'
 import { DiSass  } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
@@ -70,14 +70,7 @@ const Technologies = () => {
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <DiDocker className='text-6xl text-blue-700 hover:scale-110 transition-all ease-in-out'/>
-            </motion.div>
-            <motion.div 
-            variants={iconVariants(4)}
-            initial="initial"
-            animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiGithubactions className='text-6xl text-cyan-400 hover:scale-110 transition-all ease-in-out'/>
-            </motion.div>
+            </motion.div>            
             <motion.div 
             variants={iconVariants(6)}
             initial="initial"
@@ -97,7 +90,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiPostgresql className='text-6xl text-blue-700 hover:scale-110 transition-all ease-in-out'/>
+                <DiJira className='text-6xl text-blue-700 hover:scale-110 transition-all ease-in-out'/>
             </motion.div>
             <motion.div 
             variants={iconVariants(3)}
@@ -119,14 +112,7 @@ const Technologies = () => {
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaHtml5 className='text-6xl text-orange-500 hover:scale-110 transition-all ease-in-out'/>
-            </motion.div>
-            <motion.div 
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <DiSass className='text-6xl text-pink-400 hover:scale-110 transition-all ease-in-out'/>
-            </motion.div>
+            </motion.div>            
             <motion.div
             variants={iconVariants(4)}
             initial="initial"
@@ -155,7 +141,15 @@ const Technologies = () => {
             className='rounded-2xl border-4 border-neutral-800 p-4'>
                 <FaGithub className='text-6xl text-white hover:scale-110 transition-all ease-in-out'/>
             </motion.div>
+            <motion.div
+            variants={iconVariants(5)}
+            initial="initial"
+            animate="animate"
+            className='rounded-2xl border-4 border-neutral-800 p-4'>
+                <DiAndroid className='text-6xl text-white hover:scale-110 transition-all ease-in-out'/>
+            </motion.div>
         </motion.div>
+        
     </div>
   )
 }

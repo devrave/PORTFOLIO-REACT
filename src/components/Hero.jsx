@@ -25,7 +25,7 @@ const Hero = () => {
                 variants={container(0.5)}
                 initial="hidden"
                 animate="visible"
-                className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
+                className='bg-gradient-to-r from-gray-300 via-slate-500 to-blue-700 
                 bg-clip-text text-4xl tracking-tight text-transparent'>Desarrollador Full Stack</motion.span>
                 <motion.p 
                  variants={container(1)}
@@ -40,7 +40,7 @@ const Hero = () => {
                 initial={{x: 100, opacity: 0}}
                 animate={{x: 0, opacity: 1}}
                 transition={{duration: 1, delay: 1.2}}
-                src={profilePic} alt="Andrés Cano" className='w-96 rounded-[500px] mt-20 lg:ml-44 border-2 gap-12  border-purple-500 '/>
+                src={profilePic} alt="Andrés Cano" className='w-96 rounded-[500px] mt-20 lg:ml-44 border-2 gap-12  border-blue-700 '/>
             </div>
         </div>
       </div>

@@ -24,14 +24,14 @@ const Contact = () => {
     
         emailjs
           .send(
-            'service_75ng5b7', 
-            'template_zsnqwl6', 
+            'service_axp0b0c', 
+            'template_e7fudra', 
             {
               user_name: formData.name,
               user_email: formData.email,
               message: formData.message, 
             },
-            'bXke7shnbcuKVFm-y'
+            'V6VSfKI3GXsVgnh8A'
           )
           .then(
             (result) => {

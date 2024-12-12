@@ -26,7 +26,7 @@ const Footer = () => {
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, y:100}}
                 transition={{duration: 1}}
-                href="mailto:juanjoarenas1218@gmail.com"><p className='my-4'>{CONTACT.email}</p></motion.a>
+                href="mailto:a.canorave@gmail.com"><p className='my-4'>{CONTACT.email}</p></motion.a>
 
             </div>
         </footer>

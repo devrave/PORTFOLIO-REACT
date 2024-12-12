@@ -39,12 +39,12 @@ const Navbar = () => {
           </div>
           
           <div className="justify-around xl:w-2/5 lg:w-4/6 hidden lg:flex">
-            <a href="#hero" className="py-1 hover:text-purple-500 transition-colors duration-200">Inicio</a>
-            <a href="#about" className="py-1 hover:text-purple-500 transition-colors duration-200">Sobre mí</a>
-            <a href="#technologies" className="py-1 hover:text-purple-500 transition-colors duration-200">Tecnologías</a>
-            <a href="#projects" className="py-1 hover:text-purple-500 transition-colors duration-200">Proyectos</a>
-            <a href="#contact" className="py-1 hover:text-purple-500 transition-colors duration-200">Contacto</a>
-            <a href={cv} download="JuanJoséArenasGaviriaCV.pdf" className="bg-purple-600 rounded-lg py-1 px-2">Descargar cv</a>
+            <a href="#hero" className="py-1 hover:text-blue-600 transition-colors duration-200">Inicio</a>
+            <a href="#about" className="py-1 hover:text-blue-600 transition-colors duration-200">Sobre mí</a>
+            <a href="#technologies" className="py-1 hover:text-blue-600 transition-colors duration-200">Tecnologías</a>
+            <a href="#projects" className="py-1 hover:text-blue-600 transition-colors duration-200">Proyectos</a>
+            <a href="#contact" className="py-1 hover:text-blue-600 transition-colors duration-200">Contacto</a>
+            <a href={cv} download="CV_ANDRÉS_CANO_RAVE.pdf" className="bg-blue-800 rounded-lg py-1 px-2">Descargar cv</a>
           </div>
 
           <button
@@ -64,16 +64,13 @@ const Navbar = () => {
           </button>
 
           <div className="m-8 hidden lg:flex items-center justify-center gap-4 text-2xl">
-            <a href="https://www.linkedin.com/in/juan-jos%C3%A9-arenas-gaviria-144b79249/" className="hover:text-purple-500 transition-colors duration-200">
+            <a href="https://www.linkedin.com/in/andr%C3%A9s-cano-rave-019445153/" className="hover:text-blue-500 transition-colors duration-200">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/jarenas1" className="hover:text-purple-500 transition-colors duration-200">
+            <a href="https://github.com/devrave" className="hover:text-blue-500 transition-colors duration-200">
               <FaGithub />
-            </a>
-            <a href="https://www.instagram.com/juan______a07/?hl=es" className="hover:text-purple-500 transition-colors duration-200">
-              <FaInstagram />
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=573022260938&text=Hola%20Jarenas1%2C" className="hover:text-purple-500 transition-colors duration-200">
+            </a>           
+            <a href="https://api.whatsapp.com/send?phone=573052347042&text=Hola%20devrave%2C" className="hover:text-blue-500 transition-colors duration-200">
               <FaWhatsapp />
             </a>
           </div>
