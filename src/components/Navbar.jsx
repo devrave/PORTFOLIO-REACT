@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/devraveLogo2.png";
-import cv from "../assets/CV_ANDRÉS_CANO_RAVE.pdf";
+import cv from "../assets/Andres-Cano-Rave-CV.pdf";
 import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
